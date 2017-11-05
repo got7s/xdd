@@ -23,7 +23,7 @@
 </section>
 
 
-<p>Welcome a our bussines!</p>
+<p>Bienvenido a nuestra empresa de Mina!</p>
 
 </body>
 
