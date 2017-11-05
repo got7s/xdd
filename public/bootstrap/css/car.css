@@ -1,0 +1,73 @@
+
+
+.table{
+      margin:auto;
+      text-align: center;
+      border-radius: 10px;
+      padding: 50px;
+    padding-top: 0;
+      width: 85%;
+}
+
+.x1{
+      width: 25%;
+      float: left;
+      padding: 15px 15px;
+      box-sizing: border-box;/*acomoda el cuadro*/
+      background: #fff;
+      box-shadow: 0 0 50px rgba(0,0,0,.4);
+      
+}
+
+.know{
+  font-family: lob;
+  font-size: 45px;
+  color: cornflowerblue;
+  text-align: center;
+}
+
+/*Añadir al carrito*/
+
+.baner{
+    width: 100%;
+    background: #AACEFF;
+    clear: both; /*quita ajustes anteriores del float*/
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.8s;
+  }
+
+  .baner a{
+    text-decoration: none;
+    /*margin-left: 20px;*/
+    font-weight: bold;
+    color: #E3DFE8;
+    border-bottom: 2px solid #FFF;
+  }
+
+  .baner:hover{
+    background: #FF80E5;
+    transition: 0.8s;
+  }
+
+
+.or{
+  font-family: orig;
+  font-size: 30px;
+}
+
+
+ .efect{
+     font-size: 100px;
+     padding-left: 23%;
+     height: 40%;
+   }
+
+   .efect:hover{
+    filter: opacity(.4);
+  }
+

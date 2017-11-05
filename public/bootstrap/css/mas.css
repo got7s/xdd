@@ -1,0 +1,58 @@
+.know2{
+  font-family: lob;
+  font-size: 35px;
+  color: #57DDFA;
+  text-align: center;
+}
+
+.pricetext{
+    padding: 0;
+  color: #30B51E;
+  font-size: 2rem;
+  font-family: orig;
+}
+
+
+.imgMas{
+    padding-top: 15px;
+    font-size: 100px;
+    height: 25rem;
+    padding-left: 34%;
+}
+    /*star*/
+
+    .stars {
+      font-size: 0;
+      display: inline-block;
+    }
+    .stars a {
+      text-decoration: none;
+      display: inline-block;
+    
+      font-size: 2rem;
+      color: #888;
+    }
+
+    .stars:hover a {
+      color: #FFE95B;
+    }
+
+    .stars > a:hover ~ a {
+      color: #888;
+    }
+
+
+    /*otros*/
+    p{
+      font-weight: 40rem;
+      text-align: justify;
+    }
+
+    h3{
+      border-left: 4px solid #29CDE0;
+    }
+
+    h3:hover{
+      color: #888;
+    }
+
