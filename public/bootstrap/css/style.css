@@ -7,71 +7,76 @@
   z-index: 90;
 }
 
-p{
-    padding: 200px 50px;
-    text-align: center;
-    font-size: 80px;
-    font-family: orig;
+p {
+  padding-top: 0;
+  text-align: center;
+  font-size: 80px;
+  font-family: orig;
 } 
 
 tr .n{
-    font-size: 20px;
-    font-family: lob;
+  font-size: 20px;
+  font-family: lob;
 }
 
 .baner2{
-    background: url("img/3.jpg");
-    clear:both;
-    float: left;
-    width: 100%;
-    height: 670px;
-    background-repeat: no-repeat;
-    background-size: cover;/*img al 100%*/
-    background-attachment: fixed;/*posicion fija*/
+  background: url("../../img/3.jpg");
+  /*clear:both;*/
+  /* float: left;*/
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;/*img al 100%*/
+  background-attachment: fixed;/*posicion fija*/
+}
+footer{
+  text-align: center;
+  font-size: 15px;
+  color: dimgray;
+  bottom: 0;
+  padding-left: 13%;
+  position: fixed;
+
 }
 
-footer h2{
-    text-align: center;
-    font-size: 12px;
-    color: dimgray;
-}
+
 
 /*nav*/
 .nicdark_margintop0 {
-    margin: 3% 0 0 0% !important;
-  }
+  margin: 3% 0 0 0% !important;
+}
 
-  .nicdark_rotate:hover {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+.nicdark_rotate:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 
-  .nicdark_width_fix_100 {
-    padding: 0px; 
-    margin: 0;
-    font-size: 20%;
-    width: 10rem;
-  }
+.nicdark_width_fix_100 {
+  padding: 0px; 
+  margin: 0;
+  font-size: 20%;
+  width: 10rem;
+}
 
-  .nicdark_rotate {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: initial;
-  }
+.nicdark_rotate {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: initial;
+}
 
-  .nicdark_absolute_left {
-    position: fixed;
-    z-index: 100;
-  }
+.nicdark_absolute_left {
+  position: fixed;
+  z-index: 100;
+}
 
 /*formulario*/
 .container {
@@ -81,10 +86,9 @@ footer h2{
 }
 
 .tittle-form{
-      color: #36A0FF;
-      font-family: lob;
-      font-size: 47px;
-     
+  color: #36A0FF;
+  font-family: lob;
+  font-size: 47px;
 }
 
 
@@ -97,12 +101,12 @@ footer h2{
 /*Fuentes*/
 @font-face{
   font-family: lob;
-  src:url("bootstrap/fonts/Lobster.ttf");
+  src:url("../fonts/Lobster.ttf");
 }
 
 @font-face{
   font-family: orig;
-  src:url("bootstrap/fonts/OriginalSurfer.ttf");
+  src:url("../fonts/OriginalSurfer.ttf");
 }
 
 

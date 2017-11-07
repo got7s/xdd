@@ -16,3 +16,11 @@
 });
 */
 Route::get('/','PagesController@home');
+
+Route::get('/registrar','PagesController@registrar');
+Route::get('/vender','PagesController@vender');
+Route::get('/entrada','PagesController@entrada');
+Route::get('/ajuste','PagesController@ajuste');
+Route::get('/registrarBodega','PagesController@registrarBodega');
+Route::get('/carrito','PagesController@carrito');
+Route::get('/mas','PagesController@mas');
